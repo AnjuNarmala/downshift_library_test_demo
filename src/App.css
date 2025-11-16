@@ -1,0 +1,37 @@
+.downshift-container {
+  width: 250px;
+  position: relative;
+}
+
+.downshift-input {
+  width: 100%;
+  padding: 8px;
+  background-color: #ccc;
+}
+
+.downshift-input::placeholder {
+  color: black;
+}
+
+.downshift-menu {
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+  margin: 0;
+  padding: 0;
+  border: 1px solid #ccc;
+  list-style: none;
+  max-height: 150px;
+  background-color: white;
+  overflow-y: auto;
+}
+
+.downshift-item {
+  padding: 8px;
+  cursor: pointer;
+  border: 1px solid #ccc;
+}
+
+.downshift-item.highlighted {
+  background: #e5e5e5;
+}
